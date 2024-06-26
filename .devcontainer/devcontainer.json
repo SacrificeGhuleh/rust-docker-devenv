@@ -1,0 +1,17 @@
+{
+    "postAttachCommand": ".devcontainer/post_attach.sh",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "ms-azuretools.vscode-docker",
+                "eamodio.gitlens"
+            ],
+            "editor.formatOnSave": true
+        }
+    }
+}
