@@ -14,8 +14,9 @@ repos:
   rev: v2.3.0
   hooks:
     - id: codespell
--   repo: https://github.com/doublify/pre-commit-rust
-    rev: v1.0
+-   repo: https://github.com/SacrificeGhuleh/pre-commit-rust
+    rev: master
     hooks:
     -   id: fmt
     -   id: cargo-check
+    -   id: clippy
